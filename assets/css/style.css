@@ -218,8 +218,15 @@ body {
 
 .section-title .span {
   display: inline-block;
-  color: rgb(38, 38, 249);
-  font-weight: 600;
+  color: rgb(0, 149, 25);
+  font-weight: 700;
+}
+
+.section-title .span1 {
+  display: inline-block;
+  color: rgb(128, 49, 255);
+  font-weight: 700;
+  outline-color: black;
 }
 
 .btn {
@@ -314,7 +321,7 @@ body {
   padding-block: 12px;
   box-shadow: var(--shadow-1);
   z-index: 4;
-  background: linear-gradient(to right, #FFCCE5, #AEDFFF);
+  background: linear-gradient(to right, #fff6bd, #74c0ff);
 }
 
 
